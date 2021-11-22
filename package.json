@@ -1,0 +1,20 @@
+{
+  "name": "react-esbuild",
+  "version": "1.0.0",
+  "description": "ESbuild React App",
+  "main": "index.js",
+  "scripts":{
+    "build:static":"cp -R static ./dist && mv dist/static/* ./dist && rm -d dist/static",
+    "build:js": "esbuild src/index.tsx --bundle --outfile=dist/index.js",
+    "build": "npm run build:static && npm run build:js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^17.0.34",
+    "@types/react-dom": "^17.0.11",
+    "esbuild": "^0.13.12",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.4.4"
+  }
+}

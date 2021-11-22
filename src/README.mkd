@@ -1,0 +1,10 @@
+## Link to the tutorial (CoP)
+
+[Recorded session](https://adidasgroup.sharepoint.com/sites/Glass/Shared%20Documents/Engineering%20Meeting/Recordings/Meeting%20in%20_Engineering%20Meeting_-20211104_130218-Meeting%20Recording.mp4?web=1)
+
+### Install NPM and initialize React
+* npm init -y
+* npm add -D react react-dom
+* npm add -D typescript
+* npm add -D @types/react @types/react-dom
+* npm add -D esbuild
